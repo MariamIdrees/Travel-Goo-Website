@@ -325,20 +325,82 @@ body{
    
    }
    .border-like{
-       border: 2px solid skyblue;
-       width: 70%;
+       border: 1px solid skyblue;
+       width: 1000px;
        height: 407px;
-       margin-left: auto;
-       margin-right: auto;
+       margin: auto;
+       background-color: #9FFFEC;
+       border-radius: 120px 0px 0px 0px;
+       color: black;
+       margin-top: 100px;
+       position: relative;
        
    }
-   .border-like img{
-       margin-left: auto;
-       margin-right: auto;
-       width: 100%;
-       height: 400px;
+   .border-like p{
+    margin: auto;
+    width: fit-content;
+    height: 400px;
+    font-family: Open Sans;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 100px;
    }
-   /* .border-like p{
-       text-align: center;
-       margin-top: 100px;
-   } */
+   .ipt{
+    display: flex;
+    margin-top: -250px;
+    margin-left: 100px;
+    column-gap: 30px;
+   }
+   .put{
+    width: 450px;
+    border-radius: 10px;
+    background: #FFFFFF; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+.ipt input{
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: none; 
+    font-size: 20px;
+
+  
+}
+.ipt button {
+    background: #00A651;
+    width: 180px;
+    height: 68px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.star{
+    position: absolute;
+    left: 940px;
+}
+.round{
+    width:70px;
+    height:70px;
+    background-color:  #00A651;
+    border-radius: 50%;
+    position: absolute;
+    top:4710px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .round img{
+     width: 45px;
+     height: 45px;
+ }
